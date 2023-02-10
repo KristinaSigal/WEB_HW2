@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+    /* box-sizing: border-box;  */
+    /* избавляемся от дерганья при наведении (один из вариантов) */
+}
+
+body {
+    background-color: #ccc;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title, .desc , .subtitle {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.nav {
+    margin-top: 30px;
+    display: flex; /* кнопка св-во 2 */
+    justify-content: space-between; /* кнопка св-во 3 */
+}
+
+.nav-link {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    background-color: darkviolet;
+    border-radius: 10px;
+    display: block; /* кнопка св-во 1 */
+    border: 1px solid transparent; /* избавляемся от дерганья при наведении (2й вариант)*/
+} 
+
+.nav-link:hover {
+    border: 1px solid darkviolet;
+    color: darkviolet;
+    background-color: #fff;
+}
+
+.item
+{
+    width: 263px;
+    border: 4px solid #fff;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.item:hover {
+    border: 4px solid darkviolet;
+}
+
+.item-pic {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.subtitle {
+    font-family: 'Comfortaa', cursive;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.item-box {
+    margin-top: 50px;
+    display: flex;     /* выстраивает элементы в ряд */
+    flex-wrap: wrap;    /* перенос элемента на след строку, если не влезает */
+    justify-content: space-between;
+
+}
+
+.item {
+    margin-bottom: 50px;
+}
+
+.item-link {
+    padding: 5px;
+    background-color: #fff;
+    display: block;
+    border-radius: 10px;
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    color: #000;
+}
+
+.item-link:hover {
+    color: darkviolet;
+    font-weight: bold;
+}
+
+/* a {
+    color: green;
+} */
